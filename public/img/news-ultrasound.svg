@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 560" width="900" height="560" role="img" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <clipPath id="cnewsultrasound"><rect width="900" height="560"/></clipPath>
+  </defs>
+  <g clip-path="url(#cnewsultrasound)">
+    
+  <rect width="900" height="560" fill="#e7f0f5"/>
+  <circle cx="738" cy="112" r="235.2" fill="#cbdfea" opacity="0.75"/>
+  <circle cx="144" cy="481.59999999999997" r="190.4" fill="#cbdfea" opacity="0.55"/>
+  <path d="M0 560 L0 392 Q 315 324.79999999999995 558 403.2 T 900 369.6 L900 560 Z" fill="#8fb6cd" opacity="0.35"/>
+  <g id="gnewsultrasound"></g>
+    <g transform="translate(242.8 100.80000000000001) scale(4.144)">
+  <rect x="10" y="8" width="80" height="56" rx="6" fill="#152f3f" opacity="0.9"/>
+  <rect x="16" y="14" width="68" height="44" rx="4" fill="#f4fafd"/>
+  <path d="M50 54a26 26 0 0 1 0-36" fill="none" stroke="#2f5f7c" stroke-width="2" opacity="0.5"/>
+  <path d="M50 50a19 19 0 0 1 0-26" fill="none" stroke="#2f5f7c" stroke-width="2" opacity="0.7"/>
+  <path d="M50 45a12 12 0 0 1 0-16" fill="none" stroke="#2f5f7c" stroke-width="2"/>
+  <path d="M44 40c3-4 8-5 12-2" fill="none" stroke="#2f5f7c" stroke-width="2.4" stroke-linecap="round"/>
+  <rect x="45" y="64" width="10" height="16" fill="#152f3f" opacity="0.7"/>
+  <rect x="30" y="80" width="40" height="7" rx="3.5" fill="#152f3f" opacity="0.85"/></g>
+  </g>
+</svg>

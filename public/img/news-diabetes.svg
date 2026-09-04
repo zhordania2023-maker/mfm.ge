@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 560" width="900" height="560" role="img" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <clipPath id="cnewsdiabetes"><rect width="900" height="560"/></clipPath>
+  </defs>
+  <g clip-path="url(#cnewsdiabetes)">
+    
+  <rect width="900" height="560" fill="#f6ece2"/>
+  <circle cx="738" cy="112" r="235.2" fill="#eed9c4" opacity="0.75"/>
+  <circle cx="144" cy="481.59999999999997" r="190.4" fill="#eed9c4" opacity="0.55"/>
+  <path d="M0 560 L0 392 Q 315 324.79999999999995 558 403.2 T 900 369.6 L900 560 Z" fill="#dcb08a" opacity="0.35"/>
+  <g id="gnewsdiabetes"></g>
+    <g transform="translate(248.4 106.4) scale(4.032)">
+  <rect x="32" y="12" width="36" height="70" rx="8" fill="#fdf8f2" stroke="#8a5230" stroke-width="2.2"/>
+  <rect x="38" y="20" width="24" height="18" rx="3" fill="#8a5230"/>
+  <path d="M42 32l4-6 4 8 3-5 5 3" fill="none" stroke="#fdf8f2" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="40" cy="46" r="3.6" fill="#dcb08a"/><circle cx="50" cy="46" r="3.6" fill="#dcb08a"/><circle cx="60" cy="46" r="3.6" fill="#dcb08a"/><circle cx="40" cy="58" r="3.6" fill="#dcb08a"/><circle cx="50" cy="58" r="3.6" fill="#dcb08a"/><circle cx="60" cy="58" r="3.6" fill="#dcb08a"/><circle cx="40" cy="70" r="3.6" fill="#dcb08a"/><circle cx="50" cy="70" r="3.6" fill="#dcb08a"/><circle cx="60" cy="70" r="3.6" fill="#dcb08a"/>
+  <path d="M68 22c8-2 14 2 16 9" fill="none" stroke="#dcb08a" stroke-width="3" stroke-linecap="round"/></g>
+  </g>
+</svg>

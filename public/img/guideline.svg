@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" width="640" height="420" role="img" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <clipPath id="cguideline"><rect width="640" height="420"/></clipPath>
+  </defs>
+  <g clip-path="url(#cguideline)">
+    
+  <rect width="640" height="420" fill="#e8f0e7"/>
+  <circle cx="524.8" cy="84" r="176.4" fill="#cfe1cf" opacity="0.75"/>
+  <circle cx="102.4" cy="361.2" r="142.8" fill="#cfe1cf" opacity="0.55"/>
+  <path d="M0 420 L0 294 Q 224 243.6 396.8 302.4 T 640 277.2 L640 420 Z" fill="#9dc0a4" opacity="0.35"/>
+  <g id="gguideline"></g>
+    <g transform="translate(173 84.00000000000003) scale(2.94)">
+  <rect x="14" y="6" width="66" height="86" rx="7" fill="#f3ede0"/>
+  <rect x="22" y="6" width="66" height="86" rx="7" fill="#f3ede0" opacity="0.55"/>
+  <rect x="14" y="6" width="66" height="86" rx="7" fill="none" stroke="#2c6741" stroke-width="2.4" opacity="0.9"/>
+  <rect x="24" y="18" width="34" height="6" rx="3" fill="#2c6741"/>
+  <rect x="24" y="34" width="44" height="4" rx="2" fill="#9dc0a4"/><rect x="24" y="46" width="44" height="4" rx="2" fill="#9dc0a4"/><rect x="24" y="58" width="44" height="4" rx="2" fill="#9dc0a4"/><rect x="24" y="70" width="24" height="4" rx="2" fill="#9dc0a4"/>
+  <circle cx="70" cy="72" r="14" fill="#2c6741"/>
+  <path d="M63 72l5 5 9-10" fill="none" stroke="#f3ede0" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/></g>
+  </g>
+</svg>

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 560" width="900" height="560" role="img" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <clipPath id="ceventregional"><rect width="900" height="560"/></clipPath>
+  </defs>
+  <g clip-path="url(#ceventregional)">
+    
+  <rect width="900" height="560" fill="#e8f0e7"/>
+  <circle cx="738" cy="112" r="235.2" fill="#cfe1cf" opacity="0.75"/>
+  <circle cx="144" cy="481.59999999999997" r="190.4" fill="#cfe1cf" opacity="0.55"/>
+  <path d="M0 560 L0 392 Q 315 324.79999999999995 558 403.2 T 900 369.6 L900 560 Z" fill="#9dc0a4" opacity="0.35"/>
+  <g id="geventregional"></g>
+    <g transform="translate(209.20000000000002 67.20000000000002) scale(4.816)">
+  <path d="M6 44c8-10 20-16 34-17 12-1 22 2 32 7 10 5 20 6 22 14 2 9-8 16-20 20-14 5-30 8-44 5C14 70 2 58 6 44Z" fill="#9dc0a4" opacity="0.55"/>
+  <path d="M6 44c8-10 20-16 34-17 12-1 22 2 32 7 10 5 20 6 22 14 2 9-8 16-20 20-14 5-30 8-44 5C14 70 2 58 6 44Z" fill="none" stroke="#2c6741" stroke-width="2" opacity="0.5"/>
+  
+  <path d="M30 54c0 0-7-7-7-12a7 7 0 0 1 14 0c0 5-7 12-7 12Z" fill="#2c6741" opacity="0.65"/>
+  <circle cx="30" cy="42" r="2.6" fill="#f3ede0"/>
+  <path d="M52 48c0 0-7-7-7-12a7 7 0 0 1 14 0c0 5-7 12-7 12Z" fill="#2c6741" opacity="1"/>
+  <circle cx="52" cy="36" r="2.6" fill="#f3ede0"/>
+  <path d="M70 62c0 0-7-7-7-12a7 7 0 0 1 14 0c0 5-7 12-7 12Z" fill="#2c6741" opacity="0.65"/>
+  <circle cx="70" cy="50" r="2.6" fill="#f3ede0"/>
+  <path d="M44 70c0 0-7-7-7-12a7 7 0 0 1 14 0c0 5-7 12-7 12Z" fill="#2c6741" opacity="0.65"/>
+  <circle cx="44" cy="58" r="2.6" fill="#f3ede0"/>
+  <path d="M82 54c0 0-7-7-7-12a7 7 0 0 1 14 0c0 5-7 12-7 12Z" fill="#2c6741" opacity="0.65"/>
+  <circle cx="82" cy="42" r="2.6" fill="#f3ede0"/></g>
+  </g>
+</svg>

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 560" width="900" height="560" role="img" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <clipPath id="ceventsimulation"><rect width="900" height="560"/></clipPath>
+  </defs>
+  <g clip-path="url(#ceventsimulation)">
+    
+  <rect width="900" height="560" fill="#f6ece2"/>
+  <circle cx="738" cy="112" r="235.2" fill="#eed9c4" opacity="0.75"/>
+  <circle cx="144" cy="481.59999999999997" r="190.4" fill="#eed9c4" opacity="0.55"/>
+  <path d="M0 560 L0 392 Q 315 324.79999999999995 558 403.2 T 900 369.6 L900 560 Z" fill="#dcb08a" opacity="0.35"/>
+  <g id="geventsimulation"></g>
+    <g transform="translate(226 84) scale(4.48)">
+  <rect x="10" y="62" width="80" height="14" rx="7" fill="#dcb08a"/>
+  <path d="M22 62c0-8 6-14 14-14h30c8 0 14 6 14 14Z" fill="#eed9c4"/>
+  <circle cx="32" cy="44" r="10" fill="#e9c6a6"/>
+  <path d="M46 52c8-4 18-4 26 2" fill="none" stroke="#8a5230" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="74" cy="34" r="9" fill="#8a5230"/>
+  <path d="M62 76c0-10 6-16 12-16s12 6 12 16Z" fill="#8a5230" opacity="0.85"/>
+  <path d="M40 30l6-8 5 10 4-6 5 4" fill="none" stroke="#8a5230" stroke-width="2.6" stroke-linecap="round"/></g>
+  </g>
+</svg>

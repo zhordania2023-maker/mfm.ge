@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 560" width="900" height="560" role="img" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <clipPath id="ceventcourse"><rect width="900" height="560"/></clipPath>
+  </defs>
+  <g clip-path="url(#ceventcourse)">
+    
+  <rect width="900" height="560" fill="#dfeade"/>
+  <circle cx="738" cy="112" r="235.2" fill="#bcd6bf" opacity="0.75"/>
+  <circle cx="144" cy="481.59999999999997" r="190.4" fill="#bcd6bf" opacity="0.55"/>
+  <path d="M0 560 L0 392 Q 315 324.79999999999995 558 403.2 T 900 369.6 L900 560 Z" fill="#7ba98a" opacity="0.35"/>
+  <g id="geventcourse"></g>
+    <g transform="translate(237.2 95.19999999999999) scale(4.256)">
+  <rect x="12" y="16" width="76" height="54" rx="6" fill="#f1f7ef" stroke="#1f4a30" stroke-width="2.2"/>
+  <rect x="22" y="28" width="40" height="5" rx="2.5" fill="#1f4a30"/>
+  <rect x="22" y="40" width="52" height="4" rx="2" fill="#7ba98a"/>
+  <rect x="22" y="50" width="34" height="4" rx="2" fill="#7ba98a"/>
+  <circle cx="72" cy="60" r="12" fill="#1f4a30"/>
+  <path d="M66 60l4 4 8-8" fill="none" stroke="#f1f7ef" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M66 72l-4 16 10-6 10 6-4-16Z" fill="#7ba98a"/></g>
+  </g>
+</svg>

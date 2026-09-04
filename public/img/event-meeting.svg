@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 560" width="900" height="560" role="img" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <clipPath id="ceventmeeting"><rect width="900" height="560"/></clipPath>
+  </defs>
+  <g clip-path="url(#ceventmeeting)">
+    
+  <rect width="900" height="560" fill="#f4efe2"/>
+  <circle cx="738" cy="112" r="235.2" fill="#e6dcc4" opacity="0.75"/>
+  <circle cx="144" cy="481.59999999999997" r="190.4" fill="#e6dcc4" opacity="0.55"/>
+  <path d="M0 560 L0 392 Q 315 324.79999999999995 558 403.2 T 900 369.6 L900 560 Z" fill="#c9b48c" opacity="0.35"/>
+  <g id="geventmeeting"></g>
+    <g transform="translate(220.4 78.4) scale(4.592)">
+  <ellipse cx="50" cy="58" rx="40" ry="16" fill="#c9b48c"/>
+  <ellipse cx="50" cy="55" rx="40" ry="16" fill="#e6dcc4"/>
+  
+  <circle cx="18" cy="40" r="8" fill="#6f5a34"/>
+  <path d="M7 64c0-9 5-14 11-14s11 5 11 14Z" fill="#6f5a34" opacity="0.85"/>
+  <circle cx="50" cy="34" r="8" fill="#6f5a34"/>
+  <path d="M39 58c0-9 5-14 11-14s11 5 11 14Z" fill="#6f5a34" opacity="0.85"/>
+  <circle cx="82" cy="40" r="8" fill="#6f5a34"/>
+  <path d="M71 64c0-9 5-14 11-14s11 5 11 14Z" fill="#6f5a34" opacity="0.85"/>
+  <circle cx="30" cy="74" r="8" fill="#6f5a34"/>
+  <path d="M19 98c0-9 5-14 11-14s11 5 11 14Z" fill="#6f5a34" opacity="0.85"/>
+  <circle cx="70" cy="74" r="8" fill="#6f5a34"/>
+  <path d="M59 98c0-9 5-14 11-14s11 5 11 14Z" fill="#6f5a34" opacity="0.85"/></g>
+  </g>
+</svg>

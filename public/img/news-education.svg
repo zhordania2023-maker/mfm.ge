@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 560" width="900" height="560" role="img" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <clipPath id="cnewseducation"><rect width="900" height="560"/></clipPath>
+  </defs>
+  <g clip-path="url(#cnewseducation)">
+    
+  <rect width="900" height="560" fill="#f6ece2"/>
+  <circle cx="738" cy="112" r="235.2" fill="#eed9c4" opacity="0.75"/>
+  <circle cx="144" cy="481.59999999999997" r="190.4" fill="#eed9c4" opacity="0.55"/>
+  <path d="M0 560 L0 392 Q 315 324.79999999999995 558 403.2 T 900 369.6 L900 560 Z" fill="#dcb08a" opacity="0.35"/>
+  <g id="gnewseducation"></g>
+    <g transform="translate(242.8 100.80000000000001) scale(4.144)">
+  <rect x="16" y="14" width="68" height="46" rx="5" fill="#3d281b" opacity="0.9"/>
+  <rect x="21" y="19" width="58" height="36" rx="3" fill="#fdf8f2"/>
+  <circle cx="40" cy="33" r="7" fill="#dcb08a"/>
+  <path d="M31 47c2-6 5-8 9-8s7 2 9 8Z" fill="#dcb08a"/>
+  <rect x="55" y="26" width="18" height="3.5" rx="1.75" fill="#eed9c4"/><rect x="55" y="33" width="18" height="3.5" rx="1.75" fill="#eed9c4"/><rect x="55" y="40" width="18" height="3.5" rx="1.75" fill="#eed9c4"/>
+  <path d="M8 60h84l6 10H2Z" fill="#3d281b" opacity="0.75"/>
+  <rect x="38" y="63" width="24" height="3" rx="1.5" fill="#fdf8f2" opacity="0.6"/></g>
+  </g>
+</svg>

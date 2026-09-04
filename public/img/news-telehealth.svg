@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 560" width="900" height="560" role="img" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <clipPath id="cnewstelehealth"><rect width="900" height="560"/></clipPath>
+  </defs>
+  <g clip-path="url(#cnewstelehealth)">
+    
+  <rect width="900" height="560" fill="#e8f0e7"/>
+  <circle cx="738" cy="112" r="235.2" fill="#cfe1cf" opacity="0.75"/>
+  <circle cx="144" cy="481.59999999999997" r="190.4" fill="#cfe1cf" opacity="0.55"/>
+  <path d="M0 560 L0 392 Q 315 324.79999999999995 558 403.2 T 900 369.6 L900 560 Z" fill="#9dc0a4" opacity="0.35"/>
+  <g id="gnewstelehealth"></g>
+    <g transform="translate(248.4 106.4) scale(4.032)">
+  <rect x="30" y="8" width="40" height="76" rx="8" fill="#16301f" opacity="0.9"/>
+  <rect x="34" y="16" width="32" height="56" rx="3" fill="#f3ede0"/>
+  <circle cx="50" cy="44" r="12" fill="#2c6741"/>
+  <path d="M45 39c1-1 3-1 4 0l2 3c1 1 0 2-1 3 1 3 3 5 6 6 1-1 2-2 3-1l3 2c1 1 1 3 0 4-2 2-5 2-8 0-5-3-9-7-11-13-1-2-1-3 2-4Z" fill="#f3ede0"/>
+  <circle cx="50" cy="44" r="20" fill="none" stroke="#2c6741" stroke-width="1.6" opacity="0.40"/><circle cx="50" cy="44" r="28.4" fill="none" stroke="#2c6741" stroke-width="1.6" opacity="0.34"/><circle cx="50" cy="44" r="36.8" fill="none" stroke="#2c6741" stroke-width="1.6" opacity="0.28"/></g>
+  </g>
+</svg>

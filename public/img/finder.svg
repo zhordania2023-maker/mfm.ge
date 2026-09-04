@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" width="640" height="420" role="img" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <clipPath id="cfinder"><rect width="640" height="420"/></clipPath>
+  </defs>
+  <g clip-path="url(#cfinder)">
+    
+  <rect width="640" height="420" fill="#e7f0f5"/>
+  <circle cx="524.8" cy="84" r="176.4" fill="#cbdfea" opacity="0.75"/>
+  <circle cx="102.4" cy="361.2" r="142.8" fill="#cbdfea" opacity="0.55"/>
+  <path d="M0 420 L0 294 Q 224 243.6 396.8 302.4 T 640 277.2 L640 420 Z" fill="#8fb6cd" opacity="0.35"/>
+  <g id="gfinder"></g>
+    <g transform="translate(139.4 50.400000000000034) scale(3.612)">
+  <path d="M6 44c8-10 20-16 34-17 12-1 22 2 32 7 10 5 20 6 22 14 2 9-8 16-20 20-14 5-30 8-44 5C14 70 2 58 6 44Z" fill="#8fb6cd" opacity="0.55"/>
+  <path d="M6 44c8-10 20-16 34-17 12-1 22 2 32 7 10 5 20 6 22 14 2 9-8 16-20 20-14 5-30 8-44 5C14 70 2 58 6 44Z" fill="none" stroke="#2f5f7c" stroke-width="2" opacity="0.5"/>
+  
+  <path d="M30 54c0 0-7-7-7-12a7 7 0 0 1 14 0c0 5-7 12-7 12Z" fill="#2f5f7c" opacity="0.65"/>
+  <circle cx="30" cy="42" r="2.6" fill="#f4fafd"/>
+  <path d="M52 48c0 0-7-7-7-12a7 7 0 0 1 14 0c0 5-7 12-7 12Z" fill="#2f5f7c" opacity="1"/>
+  <circle cx="52" cy="36" r="2.6" fill="#f4fafd"/>
+  <path d="M70 62c0 0-7-7-7-12a7 7 0 0 1 14 0c0 5-7 12-7 12Z" fill="#2f5f7c" opacity="0.65"/>
+  <circle cx="70" cy="50" r="2.6" fill="#f4fafd"/>
+  <path d="M44 70c0 0-7-7-7-12a7 7 0 0 1 14 0c0 5-7 12-7 12Z" fill="#2f5f7c" opacity="0.65"/>
+  <circle cx="44" cy="58" r="2.6" fill="#f4fafd"/>
+  <path d="M82 54c0 0-7-7-7-12a7 7 0 0 1 14 0c0 5-7 12-7 12Z" fill="#2f5f7c" opacity="0.65"/>
+  <circle cx="82" cy="42" r="2.6" fill="#f4fafd"/></g>
+  </g>
+</svg>
