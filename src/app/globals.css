@@ -1,0 +1,285 @@
+@import "tailwindcss";
+
+/* ============================================================
+   MFM საქართველო — დიზაინ სისტემა
+   ============================================================ */
+
+@theme {
+  /* ---- ბრენდის მწვანე ---- */
+  --color-brand-50: #f2f7f2;
+  --color-brand-100: #e2efe3;
+  --color-brand-200: #c6dfc9;
+  --color-brand-300: #9cc7a3;
+  --color-brand-400: #6aa876;
+  --color-brand-500: #478c56;
+  --color-brand-600: #357043;
+  --color-brand-700: #2c6741;
+  --color-brand-800: #234f33;
+  --color-brand-900: #1c3f2a;
+  --color-brand-950: #0f2418;
+
+  /* ---- თბილი ნეიტრალები ---- */
+  --color-cream-50: #fdfcfa;
+  --color-cream-100: #faf9f5;
+  --color-cream-200: #f4f2ec;
+  --color-cream-300: #ece9e1;
+  --color-cream-400: #e3e0d7;
+  --color-sand: #e9e7e2;
+
+  --color-ink-900: #171a17;
+  --color-ink-800: #232723;
+  --color-ink-700: #3b413b;
+  --color-ink-600: #5b625b;
+  --color-ink-500: #7a827b;
+  --color-ink-400: #9aa19b;
+
+  --color-line: #e6e3dc;
+  --color-line-strong: #d8d4ca;
+
+  /* ---- აქცენტები ---- */
+  --color-lilac-200: #ddd6f0;
+  --color-lilac-300: #c9bfe6;
+  --color-clay-100: #f6ece4;
+  --color-clay-300: #e0bfa6;
+  --color-sky-100: #e4eef4;
+
+  /* ---- ტიპოგრაფია ---- */
+  --font-sans: var(--font-geo), "Noto Sans Georgian", system-ui, -apple-system,
+    "Segoe UI", sans-serif;
+
+  /* ---- რადიუსები ---- */
+  --radius-card: 1.25rem;
+  --radius-panel: 1.75rem;
+
+  /* ---- ჩრდილები ---- */
+  --shadow-soft: 0 1px 2px rgb(23 26 23 / 0.04), 0 8px 24px -12px rgb(23 26 23 / 0.10);
+  --shadow-lift: 0 2px 4px rgb(23 26 23 / 0.04), 0 18px 40px -18px rgb(23 26 23 / 0.18);
+  --shadow-menu: 0 12px 48px -12px rgb(23 26 23 / 0.22);
+
+  /* ---- ანიმაცია ---- */
+  --animate-fade-up: fade-up 0.5s cubic-bezier(0.22, 1, 0.36, 1) both;
+  --animate-fade-in: fade-in 0.35s ease both;
+}
+
+@keyframes fade-up {
+  from { opacity: 0; transform: translateY(12px); }
+  to { opacity: 1; transform: none; }
+}
+@keyframes fade-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+/* ============================================================
+   ბაზისი
+   ============================================================ */
+@layer base {
+  :root {
+    color-scheme: light;
+    --header-h: 72px;
+  }
+
+  * {
+    border-color: var(--color-line);
+  }
+
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: calc(var(--header-h) + 16px);
+    -webkit-text-size-adjust: 100%;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after {
+      animation-duration: 0.001ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.001ms !important;
+    }
+  }
+
+  body {
+    background-color: var(--color-cream-100);
+    color: var(--color-ink-700);
+    font-family: var(--font-sans);
+    font-feature-settings: "case" 1;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    color: var(--color-ink-900);
+    font-weight: 700;
+    letter-spacing: -0.015em;
+    line-height: 1.18;
+    text-wrap: balance;
+  }
+
+  p { text-wrap: pretty; }
+
+  ::selection {
+    background-color: var(--color-brand-200);
+    color: var(--color-brand-950);
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--color-brand-600);
+    outline-offset: 3px;
+    border-radius: 4px;
+  }
+
+  /* გლუვი სქროლბარი */
+  ::-webkit-scrollbar { width: 12px; height: 12px; }
+  ::-webkit-scrollbar-track { background: var(--color-cream-200); }
+  ::-webkit-scrollbar-thumb {
+    background: var(--color-line-strong);
+    border: 3px solid var(--color-cream-200);
+    border-radius: 999px;
+  }
+  ::-webkit-scrollbar-thumb:hover { background: var(--color-ink-400); }
+}
+
+/* ============================================================
+   კომპონენტური კლასები
+   ============================================================ */
+
+@layer components {
+  /* გვერდის კონტეინერი */
+  .container-x {
+    width: 100%;
+    margin-inline: auto;
+    max-width: 76rem;
+    padding-inline: 1.25rem;
+  }
+  @media (min-width: 768px) {
+    .container-x { padding-inline: 2rem; }
+  }
+  /* ღილაკები */
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    border-radius: 999px;
+    font-weight: 600;
+    font-size: 0.9375rem;
+    line-height: 1;
+    padding: 0.875rem 1.5rem;
+    transition: background-color 0.2s, color 0.2s, border-color 0.2s,
+      box-shadow 0.2s, transform 0.2s;
+    white-space: nowrap;
+    cursor: pointer;
+  }
+  .btn:active { transform: translateY(1px); }
+  .btn:disabled { opacity: 0.55; cursor: not-allowed; transform: none; }
+
+  .btn-primary {
+    background-color: var(--color-brand-700);
+    color: #fff;
+    box-shadow: 0 8px 20px -12px var(--color-brand-900);
+  }
+  .btn-primary:hover:not(:disabled) { background-color: var(--color-brand-800); }
+
+  .btn-outline {
+    background-color: #fff;
+    color: var(--color-ink-800);
+    border: 1px solid var(--color-line-strong);
+  }
+  .btn-outline:hover { border-color: var(--color-brand-400); color: var(--color-brand-800); }
+
+  .btn-ghost { background: transparent; color: var(--color-brand-700); }
+  .btn-ghost:hover { background-color: var(--color-brand-50); }
+
+  .btn-sm { padding: 0.625rem 1.125rem; font-size: 0.875rem; }
+  .btn-lg { padding: 1rem 1.875rem; font-size: 1rem; }
+
+  /* ბარათები */
+  .card {
+    background-color: #fff;
+    border: 1px solid var(--color-line);
+    border-radius: var(--radius-card);
+    box-shadow: var(--shadow-soft);
+  }
+  .card-hover {
+    transition: box-shadow 0.25s, transform 0.25s, border-color 0.25s;
+  }
+  .card-hover:hover {
+    box-shadow: var(--shadow-lift);
+    transform: translateY(-3px);
+    border-color: var(--color-brand-200);
+  }
+
+  /* ბეჯი */
+  .badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.375rem;
+    border-radius: 999px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    padding: 0.3125rem 0.75rem;
+    letter-spacing: 0.01em;
+  }
+
+  /* ფორმის ველები */
+  .field {
+    width: 100%;
+    border-radius: 0.75rem;
+    border: 1px solid var(--color-line-strong);
+    background-color: #fff;
+    padding: 0.75rem 0.9375rem;
+    font-size: 0.9375rem;
+    color: var(--color-ink-800);
+    transition: border-color 0.15s, box-shadow 0.15s;
+  }
+  .field::placeholder { color: var(--color-ink-400); }
+  .field:focus {
+    outline: none;
+    border-color: var(--color-brand-500);
+    box-shadow: 0 0 0 3px var(--color-brand-100);
+  }
+  .field-label {
+    display: block;
+    font-size: 0.8125rem;
+    font-weight: 600;
+    color: var(--color-ink-700);
+    margin-bottom: 0.4375rem;
+  }
+
+  /* ბმულის ხაზგასმა */
+  .link-underline {
+    background-image: linear-gradient(currentColor, currentColor);
+    background-size: 0% 1.5px;
+    background-repeat: no-repeat;
+    background-position: 0 100%;
+    transition: background-size 0.3s;
+  }
+  .link-underline:hover { background-size: 100% 1.5px; }
+
+  /* ტექსტის მოჭრა */
+  .clamp-2 {
+    display: -webkit-box; -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical; overflow: hidden;
+  }
+  .clamp-3 {
+    display: -webkit-box; -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical; overflow: hidden;
+  }
+
+  /* სტატიის ტიპოგრაფია */
+  .prose-geo { color: var(--color-ink-700); font-size: 1.0625rem; line-height: 1.75; }
+  .prose-geo > * + * { margin-top: 1.25rem; }
+  .prose-geo h2 { font-size: 1.5rem; margin-top: 2.5rem; }
+  .prose-geo h3 { font-size: 1.1875rem; margin-top: 2rem; }
+  .prose-geo ul { padding-left: 1.25rem; list-style: disc; }
+  .prose-geo ol { padding-left: 1.25rem; list-style: decimal; }
+  .prose-geo li + li { margin-top: 0.5rem; }
+  .prose-geo a { color: var(--color-brand-700); text-decoration: underline; text-underline-offset: 3px; }
+  .prose-geo blockquote {
+    border-left: 3px solid var(--color-brand-400);
+    padding-left: 1.25rem;
+    color: var(--color-ink-600);
+    font-style: italic;
+  }
+  .prose-geo strong { color: var(--color-ink-900); font-weight: 600; }
+}
